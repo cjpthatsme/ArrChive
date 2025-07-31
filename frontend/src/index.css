@@ -1,0 +1,32 @@
+:root {
+  --bulma-border: hsl(205.95deg 100% 63.73%);
+  
+}
+.table {
+  --bulma-table-cell-border-width: 3px 3px 3px;
+  --bulma-table-head-cell-border-width: 3px 3px 3px;
+  --bulma-table-foot-cell-border-width: 3px 3px 3px;
+  max-width: 100%;
+  overflow-x: scroll;
+  display: block;
+  border: 1px solid var(--bulma-border);
+}
+.table.is-bordered td, .table.is-bordered th {
+  border-width: var(--bulma-table-cell-border-width);
+}
+.handcon img {
+  width: 35px;
+  height: 35px;
+}
+.vid-container {
+  position: relative;
+    width: 35%;
+}
+
+.vid-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, white 0%, transparent 20%);
+  position: absolute;
+  top: 0;
+}
